@@ -30,6 +30,7 @@ class WorkingDaysController extends Controller
 
     /**
      * Check is it working day. Date format 2020-12-31.
+     * /api/is_it_working_day?day=2021-02-22
      * 
      * @param DayRequest
      * 
@@ -47,6 +48,7 @@ class WorkingDaysController extends Controller
 
     /**
      * Get next working day. Date format 2020-12-31.
+     * /api/get_next_working_day?day=2021-02-20
      * 
      * @param DayRequest
      * 
@@ -64,6 +66,7 @@ class WorkingDaysController extends Controller
 
     /**
      * Get working day number. Date format 2020-12-31.
+     * /api/get_working_day_number?day=2021-02-08
      * 
      * @param DayRequest
      * 
